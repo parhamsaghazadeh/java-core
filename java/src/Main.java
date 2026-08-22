@@ -19,29 +19,29 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.println("input a 2 number");
-                    double a = sc.nextInt();
-                    double b = sc.nextInt();
+                    double a = sc.nextDouble();
+                    double b = sc.nextDouble();
                     int num1 = op.Sum(a, b);
                     System.out.println("sum of numbers is " + num1);
                     break;
                 case 2:
                     System.out.println("input a 2 number");
-                    double c = sc.nextInt();
-                    double d = sc.nextInt();
+                    double c = sc.nextDouble();
+                    double d = sc.nextDouble();
                     int num2 = op.Subtract(c, d);
                     System.out.println("subtraction of numbers is " + num2);
                     break;
                 case 3:
                     System.out.println("input a 2 number");
-                    double f = sc.nextInt();
-                    double g = sc.nextInt();
+                    double f = sc.nextDouble();
+                    double g = sc.nextDouble();
                     int num3 = op.Multiply(f, g);
                     System.out.println("multiplication of numbers is " + num3);
                     break;
                 case 4:
                     System.out.println("input a 2 number");
-                    double e = sc.nextInt();
-                    double k = sc.nextInt();
+                    double e = sc.nextDouble();
+                    double k = sc.nextDouble();
                     double result = op.Divide(e, k);
                     System.out.println("divide of numbers is " + result);
                     break;
@@ -49,7 +49,5 @@ public class Main {
                     System.out.println("invalid choice");
             }
         }
-
-
     }
 }
