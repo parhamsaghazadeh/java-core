@@ -14,8 +14,8 @@ public class Animal {
         return "createCate";
     }
 
-    public void sound() {
-        System.out.println("sound");
+    public String sound() {
+        return "sound";
     }
 
     public String showAnimal() {
