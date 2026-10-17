@@ -47,8 +47,8 @@ public class Account {
     }
 
 
-    public String deposit(double amount) {
-        if (amount < 0) {
+    public synchronized String deposit(double amount) {
+        if (amount <= 0) {
             throw new IllegalArgumentException("Amount must be greater than 0");}
 
         balance = balance + amount;
